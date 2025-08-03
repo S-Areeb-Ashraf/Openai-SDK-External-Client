@@ -12,7 +12,7 @@ This example adds **streaming responses** to the previous Chainlit implementatio
 ---
 
 ## Setup
-Same as [Chainlit Basic Example](../chainlit-basic/README.md).
+Same as [Chainlit Basic Example](../chainlit basic/README.md).
 
 ---
 

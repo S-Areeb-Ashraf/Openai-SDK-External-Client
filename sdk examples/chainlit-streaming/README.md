@@ -4,26 +4,26 @@ This example adds **streaming responses** to the previous Chainlit implementatio
 
 ---
 
-## 🛠 Features
+## Features
 - Real-time token streaming in the Chainlit UI
 - Maintains conversation history
 - Uses **OpenAI SDK** with **Gemini**
 
 ---
 
-## ✅ Setup
+## Setup
 Same as [Chainlit Basic Example](../1-chainlit-basic/README.md).
 
 ---
 
-## ▶️ Run
+## Run
 ```bash
 chainlit run main.py
 ```
 
 ---
 
-## 📌 Key Difference
+## Key Difference
 Uses:
 ```python
 result = Runner.run_streamed(...)

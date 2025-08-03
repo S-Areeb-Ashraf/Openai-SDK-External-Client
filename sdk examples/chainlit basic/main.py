@@ -7,7 +7,7 @@ from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 
-gemini_api_key = os.getenv("GEMINI_API_KEY")
+gemini_api_key = os.getenv("gemini_api_key")
 
 provider = AsyncOpenAI(
     api_key=gemini_api_key,

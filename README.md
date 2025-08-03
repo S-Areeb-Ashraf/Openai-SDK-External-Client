@@ -32,13 +32,13 @@ All examples use `AsyncOpenAI` from the OpenAI Python SDK with Gemini as the bac
 ```
 .
 ├── README.md                # Main documentation (this file)
-├── 1-chainlit-basic/        # Chainlit example (async)
+├── chainlit-basic/        # Chainlit example (async)
 │   └── README.md
-├── 2-chainlit-streaming/    # Chainlit example with streaming
+├── chainlit-streaming/    # Chainlit example with streaming
 │   └── README.md
-├── 3-tools-async/           # Tools integration example
+├── tools-async/           # Tools integration example
 │   └── README.md
-└── 4-cli-streaming/         # CLI-based streaming example
+└── cli-streaming/         # CLI-based streaming example
     └── README.md
 ```
 
@@ -47,19 +47,19 @@ All examples use `AsyncOpenAI` from the OpenAI Python SDK with Gemini as the bac
 ## Examples
 
 ### 1. **Chainlit Basic Chat**
-- **Path:** `1-chainlit-basic/`
+- **Repo:** `chainlit-basic/`
 - Demonstrates a basic Chainlit UI with OpenAI SDK using Gemini.
 
 ### 2. **Chainlit Streaming**
-- **Path:** `2-chainlit-streaming/`
+- **Repo:** `chainlit-streaming/`
 - Adds **streaming responses** to Chainlit.
 
 ### 3. **Tools with Async Mode**
-- **Path:** `3-tools-async/`
+- **Repo:** `tools-async/`
 - Shows how to register and use tools with async OpenAI SDK.
 
 ### 4. **CLI with Streaming**
-- **Path:** `4-cli-streaming/`
+- **Repo:** `cli-streaming/`
 - Streams responses in the terminal without any UI.
 
 ---

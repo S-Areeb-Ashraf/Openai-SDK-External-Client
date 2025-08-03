@@ -87,5 +87,5 @@ chainlit run main.py
 
 ---
 
-## License
-MIT
+## Author
+Developed by Syed Areeb Ashraf
